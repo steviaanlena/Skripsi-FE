@@ -1,4 +1,4 @@
-const API_ENDPOINT = 'skripsi-be-production-3b92.up.railway.app/analyze'
+const API_ENDPOINT = 'https://skripsi-be-production-3b92.up.railway.app/analyze'
 
 export async function analyzeText(text) {
   try {
