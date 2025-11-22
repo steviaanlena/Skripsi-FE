@@ -10,7 +10,7 @@ function Demo() {
   const examples = [
     { text: 'Aku seneng banget hari iki!', emotion: 'happy', emoji: '😊' },
     { text: 'Aku sedih banget kancaku lunga', emotion: 'sad', emoji: '😢' },
-    { text: 'Aku nesu banget awakmu ngono!', emotion: 'angry', emoji: '😠' },
+    { text: 'Aku mangkel banget awakmu ngono!', emotion: 'angry', emoji: '😠' },
     { text: 'Aku wedi ndelok pilem horor', emotion: 'fear', emoji: '😨' },
   ]
 
