@@ -27,6 +27,11 @@ function Navbar() {
             </Link>
           </li>
           <li>
+            <Link to="/stemmer" className={`nav-link ${isActive('/stemmer')}`}>
+              Try Stemmer
+            </Link>
+          </li>
+          <li>
             <Link to="/demo" className={`nav-link ${isActive('/demo')}`}>
               Try Demo
             </Link>
