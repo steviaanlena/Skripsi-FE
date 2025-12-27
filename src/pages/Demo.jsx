@@ -57,11 +57,12 @@ function Demo() {
       const data = await analyzeText(inputText)
       
       const cleanScores = {
-        happy: data.scores.happy || 0,
-        sad: data.scores.sad || 0,
-        angry: data.scores.angry || 0,
-        fear: data.scores.fear || 0
+        happy: Number((data.scores.happy || 0).toFixed(2)),
+        sad: Number((data.scores.sad || 0).toFixed(2)),
+        angry: Number((data.scores.angry || 0).toFixed(2)),
+        fear: Number((data.scores.fear || 0).toFixed(2))
       }
+      
 
       const isNeutral = detectNeutral(cleanScores)
       
